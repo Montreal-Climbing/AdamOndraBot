@@ -1,0 +1,6 @@
+{
+	"reactions": [
+		{ "emoji": "pontywat", "message_patterns": ["peach", "bitch", "pee+ch", "groan", "hiss", "adam ondra", "🍑"] },
+		{ "emoji": "pontyhigh", "message_patterns": ["high", "weed", "ponty", "pontus"] }
+	]
+}
