@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "adamondrabot"
+version = "0.1.0"
+description = ""
+authors = ["wmbat <wmbat-dev@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^0.21.1"
+py-cord = "^2.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
