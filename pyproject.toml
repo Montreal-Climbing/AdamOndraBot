@@ -4,11 +4,17 @@ version = "0.1.0"
 description = ""
 authors = ["wmbat <wmbat-dev@protonmail.com>"]
 readme = "README.md"
+packages = [
+	{include = "ondra"},
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 python-dotenv = "^0.21.1"
 py-cord = "^2.3.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.1"
 
 [build-system]
 requires = ["poetry-core"]
